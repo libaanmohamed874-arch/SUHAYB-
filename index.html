@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+        /* NAVBAR */
+        nav {
+            background: #003366;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            height: 350px;
+            background: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b') center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 0px 0px 10px black;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        /* SECTIONS */
+        .container {
+            padding: 30px 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2>University Name</h2>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Departments</a>
+            <a href="#">Admissions</a>
+            <a href="#">E-Learning</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+        Welcome to Our University
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="container">
+        <div class="card">
+            <h2>About Us</h2>
+            <p>
+                We are a leading institution offering high-quality education, modern facilities,
+                and professional instructors dedicated to student success.
+            </p>
+        </div>
+
+        <!-- PROGRAMS -->
+        <div class="card">
+            <h2>Programs Offered</h2>
+            <ul>
+                <li>Computer Science</li>
+                <li>Information Technology</li>
+                <li>Business Administration</li>
+                <li>Public Health</li>
+                <li>Education</li>
+            </ul>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email: info@university.com</p>
+            <p>Phone: +252 61 0000000</p>
+            <p>Location: Main Campus, Mogadishu</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 University Name. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
